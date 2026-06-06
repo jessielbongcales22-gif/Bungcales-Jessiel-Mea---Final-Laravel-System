@@ -8,7 +8,7 @@
     <div class="bg-gradient-to-r from-[#1e40af] to-[#3b82f6] p-12 rounded-[40px] text-white shadow-2xl shadow-blue-200 relative overflow-hidden">
         <div class="relative z-10">
             <h1 class="text-5xl font-black tracking-tight mb-2">Hello, {{ Auth::user()->name }}!</h1>
-            <p class="text-blue-100/80 text-xl font-medium mb-6">Need a refill? We're ready to deliver to your doorstep...</p>
+            <p class="text-blue-100/80 text-xl font-medium mb-6">Need a refill? We're ready to deliver to your doorstep.</p>
             <div class="flex gap-4">
                 <a href="{{ route('orders.create') }}" class="px-8 py-3 bg-white text-blue-600 font-black rounded-2xl hover:bg-blue-50 transition shadow-xl">
                     Order Refill Now
